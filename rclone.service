@@ -1,0 +1,10 @@
+[Unit]
+Description=RClone Backup
+
+[Service]
+Type=simple
+User=omi
+ExecStart=/usr/local/bin/rclone.sh
+
+[Install]
+WantedBy=timers.target
