@@ -1,7 +1,7 @@
 *Pre-Requisite : rclone configuration for [google drive](https://rclone.org/drive/).*
 
 
-## Automate local file backup to google drive using rclone and systemd timer.
+## Automate local file backup to google drive using rclone and systemd timer
 
 * rclone.sh (script - source followed by destination)
 ```
