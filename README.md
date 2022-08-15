@@ -1,4 +1,4 @@
-*Pre-Requisite : rclone configuration for [google drive](https://rclone.org/drive/).*
+*Pre-Requisite : Installed [Rclone](https://rclone.org/install/) & Google Drive [configuration](https://rclone.org/drive/).*
 
 
 ## Automate local file backup to google drive using rclone and systemd timer
