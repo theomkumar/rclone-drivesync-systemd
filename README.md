@@ -13,15 +13,20 @@
 * rclone.service 
 ```
 [Unit]
-Description=RClone Backup
+Description=RClone Drive Backup
+After=network-online.target
 
 [Service]
 Type=simple
 User=omi
-ExecStart=/usr/local/bin/rclone.sh
+ExecStart=/usr/local/bin/your_script.sh
 
 [Install]
 WantedBy=timers.target
+```
+*We can also add command directly to ExecStart*
+```
+ExecStart=rclone sync /local/file remote:backup/ -v
 ```
 * rclone.timer 
 ```
