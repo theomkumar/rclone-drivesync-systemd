@@ -6,7 +6,7 @@
 * rclone.sh (script - source followed by destination)
 ```
 #!/bin/bash
-/usr/bin/rclone sync /home/omi/learning-cpp/ remote:backup/learning-cpp --verbose 
+/usr/bin/rclone sync /local/file remote:backup/ --verbose 
 ```
 # Add the following files in /etc/systemd/system/
 
